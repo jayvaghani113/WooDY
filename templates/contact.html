@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=false;" />
+
+    <title>WooDY Website</title>
+
+    <link rel="stylesheet" href="/static/a/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head> 
+
+<body>
+
+
+    <div class="a-row">
+        <div class="a-row-col">
+            <div class="a-row-col1">
+                <a href="https://www.google.com/"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                <p>123 Street, New York,USA</p>
+            </div>
+            <div class="a-row-col2">
+                <a href="https://www.google.com/"><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                <p>Mon - Fri : 09.00 AM - 09.00 PM</p>
+            </div>
+        </div>
+        <div class="a-row-col_log">
+            <div class="a-row-col_log1">
+                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="#">+012 345 6789</a>
+            </div>
+            <div class="a-row-col_log2">
+                <ul>
+                    <li>
+                        <a class="a-row-col-abc" href="https://www.google.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a class="a-row-col-abc" href="https://www.google.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a class="a-row-col-abc" href="https://www.google.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a class="a-row-col-abc" href="https://www.google.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="header">
+        <div class="header_left">
+            <h1>WooDY</h1>
+        </div>
+
+        <div class="header_right_col1">
+
+            <label id="menu-toggle-icon">
+                <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </label>
+            <ul class="mobile-menu">
+                <li class="active"><a href="/">HOME</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/services">SERVICE</a></li>
+                <li><a href="/project">PROJECT</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">PAGE
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="/feature">Feature</a>
+                            <a href="/free_quote">Free Quote</a>
+                            <!-- <a href="/Our_Team">Our Team</a> -->
+                            <a href="/Testimonial">Testimonial</a>
+                            <a href="/Page">404 Page</a>
+                          </div>
+                    </div>
+                </li>
+                <li><a href="/contact">CONTACT</a></li>
+            </ul>
+
+            <div class="header_right_col2">
+                <a href="#">
+                    <P>Get A Quote</P>
+                </a>
+                <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#menu-toggle-icon').click(function () {
+                $('.mobile-menu').slideToggle();
+            });
+        });
+    </script>
+
+
+
+    <div class="page">
+        <div class="page-img">
+            <img src="/static/page.jpg" height="350px" width="100%">
+        </div>
+        <div class="page_row">
+            <div class="page_row1">
+                <h1>Contact</h1>
+            </div>
+            <div class="page_row2">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>/
+                        <a href="#">Page</a>/
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="b-row-col">
+        <div class="b-row">
+            <div class="b-row1">
+                <h1>Contact Us __</h1>
+            </div>
+            <div class="b-row2">
+                <p>The contact form is currently inactive. Get a functional and working contact form with Ajax
+                    & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. Download
+                    Now.</p>
+            </div>
+
+            <div class="b-row3">
+                <form action="/action_page.php">
+                    <div class="b-row4">
+                        <input type="text" id="name" placeholder="Your Name">
+                        <input type="text" id="email" placeholder="Your Email">
+                    </div>
+                    <input type="text" id="subject" placeholder="subject">
+                    <input type="text" id="message" placeholder="Message">
+                    <div class="submit-c">
+                        <a href="#"><button>Send Message</button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="b-row-col2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59498.44082025265!2d72.80445829486777!3d21.245622149920642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f4fb5c0b087%3A0xb7aabd8a90da0679!2sMota%20Varachha%2C%20Surat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1691132324405!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+    <div class="footer_row1">
+        <div class="wraper">
+            <div class="footer_row1_wraper_col1">
+                <h2>Address</h2>
+                <ul>
+                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 123 Street, New york, USA</a>
+                    </li>
+                    <li><a class="wraper-abc" href="#"><i class="fa fa-phone" aria-hidden="true"></i> +012 345 67890</a></li>
+                    <li><a class="wraper-abc" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> mail@domain.com</a></li>
+                    <li>
+                        <div class="social">
+                            <a class="wraper-abc1" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a class="wraper-abc1" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a class="wraper-abc1" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            <a class="wraper-abc1" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer_row1_wraper_col2">
+                <h2>Services</h2>
+                <ul>
+
+                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>General Carpentry</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>Furniture Remodeling</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>Wooden Floor</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>Wooden Furniture</a></li>
+                    <li><a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i>Custom Carpentry </a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer_row1_wraper_col3">
+                <h2>Quick Links</h2>
+                <ul>
+
+                    <li><a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i>About Us</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>Contact Us</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>Our Services</a></li>
+                    <li> <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>Terms & Condition</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>Support</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer_row1_wraper_col4">
+
+                <h2>Newsletter</h2>
+                <p>Dolor amet sit justo amet elitr clita ipsum elite est.</p>
+                <form class="example" action="/action_page.php">
+                    <input type="text" placeholder="Your email">
+                    <a href="#"><button type="submit">SignUp</button></a>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <div class="wraper">
+            <div class="copyright"><span>&copy;</span><a href="#">Your Site Name,</a><span>All Rights Reserved.</span>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
